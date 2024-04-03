@@ -1,33 +1,3 @@
-// import { useRef } from "react";
-// import usePictureInPicture from "react-use-pip";
-
-// function App() {
-//   const videoRef = useRef(null);
-//   const {
-//     isPictureInPictureActive,
-//     isPictureInPictureAvailable,
-//     togglePictureInPicture,
-//   } = usePictureInPicture(videoRef);
-
-//   return (
-//     <div className="App">
-//       <video ref={videoRef} id="pip-object" height={"400"}>
-//         <source src="vid-1.mp4" />
-//       </video>
-//       {isPictureInPictureAvailable && (
-//         <button
-//           onClick={() => togglePictureInPicture(!isPictureInPictureActive)
-
-//           }
-//         >
-//           {!isPictureInPictureActive ? "Open PIP" : "Close PIP"}
-//         </button>
-//       )}
-//     </div>
-//   );
-// }
-
-// export default App;
 import React, { useRef } from "react";
 import ReactDOM from "react-dom/client";
 import "./App.css";
